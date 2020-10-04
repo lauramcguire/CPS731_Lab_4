@@ -1,10 +1,13 @@
 package com.cps731lab4;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+
+    RecyclerView recyclerView;
 
     String[] recipeStr;
     String[] descriptionStr;
@@ -18,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+        recyclerView = findViewById(R.id.recyclerView);
+
+        recipeStr = getResources().getStringArray(R.array.recipes);
+        descriptionStr = getResources().getStringArray(R.array.description);
+        ingredientsStr = getResources().getStringArray(R.array.ingredients);
     }
 }
