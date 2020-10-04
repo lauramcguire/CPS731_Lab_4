@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">CPS731 Lab 4</string>
+
+    <string-array name="recipes">
+        <item>Chicken Cordon Bleu</item>
+        <item>Tuna Casserole</item>
+        <item>Ground Beef Noodles</item>
+        <item>Smoked Cheese Ravioli</item>
+        <item>Pesto Chicken</item>
+        <item>Roasted Butternut Squash</item>
+        <item>Miso-Glazed Turnips</item>
+        <item>Charred Leeks With Honey and Vinegar</item>
+        <item>Collard Greens</item>
+        <item>Jammy Eggs with Paprika Aioli</item>
+        <item>Pasta al Limone</item>
+        <item>Veggie Hoagies</item>
+        <item>Buttered Tomatoes with Ginger</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Chicken filled with ham and swiss cheese, topped with bread crumbs.</item>
+        <item>Macaroni with tuna in cream of chicken soup sauce with cheese and fried onions.</item>
+        <item>Ramen noodles topped with ground beef, tomato, and corn.</item>
+        <item>Creamy cheese ravioli with smoked gouda.</item>
+        <item>Chicken breast topped with basil pesto and prosciutto.</item>
+        <item>Butternut squash baked with olive oil, salt, and pepper.</item>
+        <item>Charred turnips coated in miso, butter, sugar, pepper, and lemon.</item>
+        <item>Leeks glazed in vinegar, honey, and olive oil.</item>
+        <item>Sauteed collard greens, bacon, and onions seasoned with chili and salt.</item>
+        <item>Soft boiled eggs topped with pepperoncini, parsley, mayonnaise, paprika, and salt.</item>
+        <item>Spaghetti with butter cream sauce spiced topped with salt, pepper, and lemon.</item>
+        <item>Fresh cut bun filled with jarred giadiniera, mayonnaise, tomatoes, lettuces, salt, and pepper.</item>
+        <item>Tomatoes cooked in butter with ginger, scallions, and soy sauce. Serve on toast.</item>
+    </string-array>
+
+    <string-array name="ingredients">
+        <item>Ingredients:\n\nchicken\nsalt\npepper\nswiss cheese\nham\nbread crumbs</item>
+        <item>Ingredients:\n\nmacaroni\ntuna\ncream of chicken soup\ncheddar cheese\nfriend onions</item>
+        <item>Ingredients:\n\nground beef\nramen noodles\ndiced tomatoes\ncorn</item>
+        <item>Ingredients:\n\nfrozen ravioli\ncream\nGouda cheese\nfresh parsley\npepper</item>
+        <item>Ingredients:\n\nchicken breast\nbasil pesto\nprosciutto</item>
+        <item>Ingredients:\n\nbutternut squash\nolive oil\npepper\nsalt\npepper</item>
+        <item>Ingredients:\n\nturnips\nmiso\nbutter\nsugar\npepper\nlemon</item>
+        <item>Ingredients:\n\nleeks\nvinegar\nhoney\nolive oil</item>
+        <item>Ingredients:\n\nonion\nolive oil\nbacon\npepper\ncollard greens\nchili\nsalt</item>
+        <item>Ingredients:\n\neggs\npepperoncini\nparsley\nmayonnaise\npaprika\nsalt</item>
+        <item>Ingredients:\n\nspaghetti\nlemon\nsalt\ncream\nbutter\ncheese\npepper</item>
+        <item>Ingredients:\n\njarred giadiniera\nmayonnaise\nbuns\ntomatoes\nsalt\nlettuce\npepper\nolive oil</item>
+        <item>Ingredients:\n\nbutter\nginger\nscallions\ntomatoes\nsoy sauce\nsalt</item>
+    </string-array>
 </resources>
