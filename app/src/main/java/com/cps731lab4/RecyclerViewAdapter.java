@@ -1,6 +1,7 @@
 package com.cps731lab4;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,9 +34,19 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, final int position) {
         holder.title.setText(s1[position]);
         holder.description.setText(s2[position]);
+
+        holder.mainLayout.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(context, DetailsActivity.class);
+                intent.putExtra("ingredients", s3[position]);
+                intent.putExtra("picture", images[position]);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
